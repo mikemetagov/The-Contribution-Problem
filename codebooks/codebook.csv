@@ -1,0 +1,32 @@
+module,code,variable,type,allowed_values,reliability_statistic
+A,A1,source_id,id,,
+A,A2,citation,text,,
+A,A3,url,url,,
+A,A4,tier,nominal,T1|T2|T3|T4|T5,kappa+AC1
+A,A5,evidence_type,nominal,empirical-quantitative|empirical-qualitative|mixed|case description|programme report|conceptual/opinion,kappa+AC1
+A,A6,dao_types,multi,protocol|grants/public-goods|investment|social|service|multiple|general,AC1 per option
+A,A9,author_role,nominal,academic|foundation/DAO staff|delegate/contributor|vendor|journalist|other,kappa+AC1
+A,A10,conflict_of_interest,nominal,none stated|possible|declared,kappa+AC1
+A,A11,appraisal,ordinal,high|moderate|low,weighted kappa
+B,B1,defines_problem,nominal,explicit|implicit|not addressed,kappa+AC1
+B,B3,dimensions,multi,D1|D2|D3|D4|D5,AC1 per option
+C,C1,dimension,nominal,D1|D2|D3|D4|D5,kappa+AC1
+C,C2,outcome,nominal,M1|M2|M3|M4|M5|M6,kappa+AC1
+C,C3,direction,nominal,negative|positive|mixed|none found,kappa+AC1
+C,C4,claim_basis,nominal,measured association|causal design|case observation|practitioner judgement|theoretical,kappa+AC1
+C,C5,claim_type,nominal,reported|inferred,kappa+AC1
+D,D1,barrier,multi,B1|B2|B3|B4|B5|B6|B7|B8|B9|B10|B99,AC1 per option
+D,D3,linkage_type,nominal,cause|consequence|precondition|co-symptom|co-mention only,kappa+AC1
+E,E3,solution_family,nominal,S1|S2|S3|S4|S5|S6|S7|S99,kappa+AC1
+E,E5,status,nominal,active|ended|paused|replaced,kappa+AC1
+E,E7,tidier_lite_total,ordinal,0-7,weighted kappa
+E,E9,result_direction,nominal,improved|no change|worsened|mixed|not evaluated,kappa+AC1
+E,E10,nesta_level,ordinal,0|1|2|3|4|5,weighted kappa
+E,E11,evaluator_independence,nominal,self-reported|commissioned|independent,kappa+AC1
+F,F2,solution_family,nominal,S1|S2|S3|S4|S5|S6|S7|S99,kappa+AC1
+F,F8,programme_theory_link,nominal,supports|refines|refutes,kappa+AC1
+G,G2,dimension,nominal,D1|D2|D3|D4|D5,kappa+AC1
+G,G4,metric_role,nominal,primary KPI|guardrail|both,kappa+AC1
+G,G6,comparator_type,nominal,public company|cooperative|DAO|normative|other,kappa+AC1
+G,G8,post_incentive_tested,nominal,yes|no|NR,kappa+AC1
+G,G9,data_access,nominal,public|non-public,kappa+AC1
